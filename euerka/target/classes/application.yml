@@ -1,0 +1,17 @@
+server:
+  port: 10086
+spring:
+  application:
+    name: euerka
+  security:
+    user:
+      name: ws
+      password: 123
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

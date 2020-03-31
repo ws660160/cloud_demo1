@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: consumer1-service
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://ws:123@localhost:10086/eureka/
+  instance:
+    prefer-ip-address: true
+    ip-address: localhost
+info:
+  app.name: consumer1-service
+  company.name: com.ws
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

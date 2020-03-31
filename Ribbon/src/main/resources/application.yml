@@ -1,0 +1,17 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: Ribbon-service
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://ws:123@localhost:10086/eureka/
+  instance:
+    prefer-ip-address: true
+    ip-address: localhost
+info:
+  app.name: Ribbon-service
+  company.name: com.ws
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

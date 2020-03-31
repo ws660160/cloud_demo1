@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Ribbon" />
+        <module name="common" />
+        <module name="provider" />
+        <module name="provider1" />
+        <module name="provider (2)" />
+        <module name="consumer3" />
+        <module name="consumer1" />
+        <module name="euerka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud_demo1" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="consumer1" target="1.8" />
+      <module name="consumer2" target="1.8" />
+      <module name="consumer3" target="1.8" />
+      <module name="euerka" target="1.8" />
+      <module name="provider" target="1.8" />
+      <module name="provider (1)" target="1.8" />
+      <module name="provider (2)" target="1.5" />
+      <module name="provider1" target="1.8" />
+      <module name="Ribbon" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Ribbon" options="-parameters" />
+      <module name="cloud_demo1" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="consumer1" options="-parameters" />
+      <module name="consumer2" options="-parameters" />
+      <module name="consumer3" options="-parameters" />
+      <module name="euerka" options="-parameters" />
+      <module name="provider" options="-parameters" />
+      <module name="provider (1)" options="-parameters" />
+      <module name="provider (2)" options="-parameters" />
+      <module name="provider1" options="-parameters" />
+    </option>
+  </component>
+</project>
